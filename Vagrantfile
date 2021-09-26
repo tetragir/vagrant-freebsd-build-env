@@ -1,6 +1,6 @@
 $script = <<-'SCRIPT'
 pkg upgrade -y
-pkg install -y git
+pkg install -y git nano
 git clone https://git.FreeBSD.org/ports.git /usr/ports
 SCRIPT
 
