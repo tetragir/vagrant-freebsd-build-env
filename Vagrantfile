@@ -9,6 +9,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.box_check_update = true
   config.vm.provision "shell", inline: $script
+  config.vm.hostname = "freebsd"
   config.vm.provider :libvirt do |libvirt|
     libvirt.storage_pool_name = "Nyul"
     libvirt.disk_bus = "scsi"
