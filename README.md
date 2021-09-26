@@ -2,7 +2,7 @@
 
 ## Definition
 This Vagrantfile contains a configuration for a FreeBSD VM on KVM with git installed and the ports tree checked out.
-I use this setup to quickly create a FreeBSD to modify ports' Makefiles to update them
+I use this setup to quickly create a FreeBSD to modify ports' Makefiles to update them.
 
 ## Instructions
 
@@ -27,7 +27,7 @@ vagrant up
 ### 4. Log in
 Once the start-up is finished, enter the VM:
 ```shell
-vagrant ssh freebsd
+vagrant ssh default
 ```
 
 ### 5. Finish
